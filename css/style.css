@@ -1,0 +1,206 @@
+/* =========================== */
+.container {
+    max-width: 1400;
+    width: 95%;
+    margin: 0 auto;
+
+}
+h1{
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 350px;
+}
+/* =========== Header Top =========== */
+.header-top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px 0;
+}
+.header-top-nav li {
+    margin-right: 15px ;
+    color: white;
+}
+.header-top-nav a {
+  color: white;
+}
+.header-top-nav a:hover{
+  color: deeppink;
+}
+/* ===================== */
+.logo {
+  max-width: 160px;
+  width: 100%;
+  float: left;
+}
+/* ==== dropdown ====== */
+.nav-area{
+  padding: 0;
+  list-style: none;
+  background: transparent;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-area li{
+  position: relative;
+  line-height: 21px;
+  text-align: left;
+  max-width: 300px;
+  width: 100%;
+  
+}
+.nav-area li a{
+  display: block;
+  padding: 8px 25px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.nav-area li a:hover{
+  color: #fff;
+}
+.nav-area li ul.dropdown-menu{
+  max-width: 100%; /* Set width of the dropdown */
+  background: #276678;
+  display: none;
+  position: absolute;
+  z-index: 999;
+  left: 0;
+}
+.nav-area li ul.dropdown-menu li{
+  display: block;
+}
+.nav-area li ul.dropdown-menu li a:hover{
+  background-color: #1687a7;
+
+}
+/* ------ Video Banner------- */
+.banner {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: top;
+  align-items: top;
+}
+.banner video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.banner::after{
+    content: "";
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0.5;
+}
+.content {
+  position: relative;
+  z-index: 99;
+  top: 0;
+  
+}
+/* ======  ICONS SECTION    ========= */
+#icon {
+  padding: 50px 0;
+}
+.Menu-of-icons {
+  width: 100%;
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-around;
+  border: 1px black solid;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.icons  h4{
+  margin-top:30px;
+  font-size: 20px;
+}
+.icons div i {
+  font-size: 30px;
+  color: #1687a7;
+
+}
+/* ============ Columns   =================== */
+#columns {
+  padding: 20px 0 50px;
+}
+.columns-div {
+  width: 30%;
+  display: inline-block;
+  margin-top: 30px;
+  position: relative;
+  margin-right: 35px;
+  border: 1px solid rgba(0, 0, 0, 0.418);
+  padding-bottom: 50px;
+}
+
+.columns-text {
+  padding: 0 20px;
+}
+.columns-div img {
+  width: 100%;
+}
+.columns-div h3 {
+  margin: 30px 0;
+}
+.columns-div p {
+  margin-bottom: 20px;
+}
+.columns-div a {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #a1298f;
+  transition: all 0.5s ease;
+  padding: 10px 15px ;
+  border-radius: 5px;
+}
+.columns-div a:hover {
+  color: white;
+  background-color: #276678;
+}
+/* ========== FOOTER =================== */
+#footer {
+  width: 100%;
+  background-color: #0f1123;
+  padding: 50px 0 150px;
+}
+.information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.footer-left-side {
+  width: 25%;
+  color: white;
+  font-size: 15px;
+
+}
+.footer-left-side img {
+  width: 100%;
+}
+.footer-left-side p {
+  margin: 30px 0;
+  line-height: 1.5;
+}
+.footer-left-side p span {
+  font-size: 18px;
+  color: #a1298f;
+}
