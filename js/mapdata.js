@@ -1579,7 +1579,8 @@ var simplemaps_worldmap_mapdata={
       lng: "2.333333333",
       color: "default",
       description: "default",
-      url: "default"
+      url: "default",
+      hide: "yes"
     },
     "1": {
       name: "Tokyo",
@@ -1587,7 +1588,8 @@ var simplemaps_worldmap_mapdata={
       lng: "139.750000000",
       color: "default",
       description: "default",
-      url: "default"
+      url: "default",
+      hide: "yes"
     },
     "3": {
       name: "New York",
@@ -1596,7 +1598,9 @@ var simplemaps_worldmap_mapdata={
       description: "default",
       color: "default",
       url: "default",
-      size: "default"
+      size: "default",
+      hide: "yes"
+      
     }
   },
   labels: {}
