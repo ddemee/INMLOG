@@ -96,4 +96,7 @@ textarea {
 .bpg {
 	font-family: 'BPG Classic Medium';
 }
+.border-right{
+	border-right: 2px black solid;
+}
 /* ----- */
