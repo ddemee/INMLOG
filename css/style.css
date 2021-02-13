@@ -61,13 +61,6 @@
 }
 
 /* ===================== */
-#header h1{
-  color: white;
-  font-size: 50px;
-  position: absolute;
-  top: 350px;
-  z-index: 4;
-}
 .logo {
   max-width: 160px;
   width: 100%;
@@ -143,12 +136,16 @@
     z-index: 2;
     opacity: 0.5;
 }
-.content {
-  position: relative;
-  z-index: 99;
-  top: 0;
-  
+.banner h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size:  25px;
+  z-index: 5;
 }
+
 /* ======  ICONS SECTION    ========= */
 #icon {
   padding: 50px 0;
@@ -359,11 +356,12 @@
     opacity: 0.5;
 }
 /* Header Ship  */
-.multipages h1{
+.banner-ship h1{
   color: white;
-  font-size: 50px;
+  font-size: 40px;
   position: absolute;
   top: 280px;
+  z-index: 4;
 }
 
 .transportation {
