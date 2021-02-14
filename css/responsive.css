@@ -2,6 +2,15 @@
     .container {
         max-width: 1090px;
     }
+    /* columns */
+    .columns-div {
+        width: 28%;
+        margin-right: 25px;
+    }
+    .columns-div h3 {
+        margin: 30px 0;
+        font-size: 20px;
+      }
  }
 
 @media (max-width: 1199.98px) {
@@ -10,10 +19,16 @@
     }
 }
 @media (max-width: 991.98px) { 
-
- }
- @media (max-width: 767.98px) { 
-
+    .columns-div {
+        width: 45%;
+        margin-right: 25px;
+    }
+}
+@media (max-width: 767.98px) { 
+    .columns-div {
+        width: 100%;
+        margin-right: 25px;
+    
      
 
   }
