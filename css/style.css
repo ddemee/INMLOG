@@ -948,12 +948,32 @@ background-position: center;
 width: 100%;
 height: 60vh;
 }
-.cargo-bg h1 {
+.cargo-bg h1,
+.cotums-bg h1,
+.shipagent-bg h1 {
   color: white;
   font-size: 40px;
   z-index: 4;
   position: absolute;
   top: 220px;
+}
+/* --------- costums -------- */
+.cotums-bg {
+  background-image: url(../img/The-benefits-of-appointing-a-licensed-customs.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 60vh;
+}
+/* -------- ship agent --------- */
+.shipagent-bg {
+  background-image: url(../img/ship-agent1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 60vh;
 }
 
 
