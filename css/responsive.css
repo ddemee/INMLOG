@@ -23,15 +23,36 @@
         width: 45%;
         margin-right: 25px;
     }
+    /* footer responsive */
+    .information {
+        flex-wrap: wrap;
+    }
 }
 @media (max-width: 767.98px) { 
     .columns-div {
-        width: 100%;
+        width: 80%;
         margin-right: 25px;
-    
-     
-
   }
+  .footer-form {
+    margin-top: 30px;
+}
+}
 @media (max-width: 575.98px) { 
+    .columns-div {
+        width: 90%;
+        margin-right: 25px;
+  }
+  .footer-left-side,
+  .footer-right-side,
+  .footer-form {
+      width: 100%;
+      margin-right: 0;
+  }
+  #footer input {
+    width: 250px;
+  }
+  #footer textarea{
+    width: 250px;
+  }
 
 }
