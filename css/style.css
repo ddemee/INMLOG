@@ -184,34 +184,6 @@
 }
 
 /* ----------- about us  ------------- */
-.aboutus-bg {
-  background-image: url(../img/about-us.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 70vh;
-  position: relative;
-}
-.aboutus-bg-div {
-  padding: 50px 20px;
-  position: absolute;
-  width: 25%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.884);
-  top: 0;
-  right: 200px;
-  border-radius: 5px;
-}
-.aboutus-bg-div h5 {
-  font-size: 30px;
-  color: white;
-  margin-bottom: 50px;
-}
-.aboutus-bg-div p {
-  color: white;
-  line-height: 1.5;
-}
 
 /* ======  ICONS SECTION    ========= */
 #icon {
