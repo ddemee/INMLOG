@@ -150,7 +150,7 @@
 }
 /* header bg  */
 .header-bg {
-  background-image: url(../img/truck-header.jpeg);
+  background-image: url(../img/heade22.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -237,7 +237,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding:30px;
+  padding:50px 30px;
   transition: all 0.5s ease
 
 }
@@ -254,8 +254,13 @@
   transition: all 0.5s ease;
 }
 .icons div img{
- max-width: 60px;
+ max-width: 150px;
  width: 100%;
+
+}
+.icon-text {
+  display: flex;
+  justify-content: space-between;
 }
 /* ============   Columns   =================== */
 #columns {
