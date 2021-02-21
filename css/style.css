@@ -53,14 +53,14 @@
   width: 100%;
   height: 150px;
   position: fixed;
-  background: #a6a9b6;
+  background-image: linear-gradient(to right,#ffffff,#18326f);
   border-bottom: 1px solid #fff;
   z-index: 25;
   box-shadow: 0 5px 10px #3B4170;
   transition: all 0.5s ease;
 }
 .scrolled .header-top{
-  background: #0f1123;
+  background-image: linear-gradient(to right,#ffffff,#132550);
 }
 
 /* ===================== */
@@ -110,44 +110,6 @@
   background-color: #1687a7;
 
 }
-/* ------ Video Banner------- */
-.banner {
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  display: flex;
-  justify-content: top;
-  align-items: top;
-}
-.banner video{
-  position: absolute;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-}
-.banner::after{
-    content: "";
-    background-color: #000;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    opacity: 0.5;
-}
-.banner h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  color: white;
-  font-size:  25px;
-  z-index: 5;
-}
 /* header bg  */
 .header-bg {
   background-image: url(../img/heade22.jpg);
@@ -183,7 +145,72 @@
 
 }
 
-/* ----------- about us  ------------- */
+/* ----------- Ideas ------------- */
+.ideas-bg1,
+.ideas-bg2,
+.ideas-bg3{
+  background-image: url(../img/map-tags.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 33.4%;
+  height:40vh;
+  position: relative;
+}
+.ideas-bg1::after,
+.ideas-bg2::after,
+.ideas-bg3::after {
+  content: "";
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  opacity: 0.5;
+}
+.ideas-bg2 {
+  background-image: url(../img/about-us.jpg);
+}
+.ideas-bg3 {
+  background-image: url(../img/truck-sizes.jpg);
+}
+.ideas-col,
+.ideas-columns {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.ideas-col h4 {
+  position: absolute;
+  bottom:  80px;
+  right: 50px;
+  color: white;
+  font-size: 30px;
+  z-index: 4;
+  text-align: end;
+}
+.ideas-col h4 br {
+  display: none;
+}
+.ideas-col a {
+  position: absolute;
+  padding: 10px 15px;
+  bottom:  30px;
+  right: 50px;
+  color: white;
+  font-size: 15px;
+  z-index: 4;
+  transition: all 0.5s ease;
+  border-bottom: 1px white solid;
+
+}
+.ideas-col a:hover {
+  background-color: white;
+  color: #000;
+  border-radius: 15px;
+}
 
 /* ======  ICONS SECTION    ========= */
 #icon {
@@ -214,11 +241,11 @@
 
 }
 .icons:hover{
-  background-color: #a1298f21;
+  background-color: #68cbe921;
   border-radius: 10px;
 }
 .icons:hover h4 {
-  color: #d12d21;
+  color: #3b21d1;
 }
 .icons  h4{
   margin-top:30px;
@@ -234,52 +261,12 @@
   display: flex;
   justify-content: space-between;
 }
-/* ============   Columns   =================== */
-#columns {
-  padding: 20px 0 150px;
-}
-.columns-div {
-  width: 30%;
-  display: inline-block;
-  margin-top: 40px;
-  position: relative;
-  margin-right: 35px;
-  border: 1px solid rgba(0, 0, 0, 0.418);
-  padding-bottom: 50px;
-}
-.columns-text {
-  padding: 0 20px;
-
-}
-.columns-div img {
-  width: 100%;
-  height: 250px;
-}
-.columns-div h3 {
-  margin: 40px 0;
-  font-size: 25px;
-}
-.columns-div p {
-  margin-bottom: 20px;
-}
-.columns-div a {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  color: #a1298f;
-  transition: all 0.5s ease;
-  padding: 10px 15px ;
-  border-radius: 5px;
-}
-.columns-div a:hover {
-  color: white;
-  background-color: #276678;
-}
 
 /* =============  World Map ================ */
 #map,
 #worldmap,
 #map-inner {
+  padding: 50px 0;
   width: 100%;
   height: 100%;
   margin: 0 auto;
@@ -419,7 +406,7 @@
   padding: 50px 0;
 }
 .transportation ul {
-  border-left: #a1298f 5px solid;
+
   width: 20%;
 }
 .transportation li {
@@ -427,6 +414,7 @@
   border-bottom: 1px black dotted;
   padding: 10px;
   transition: all 0.1s ease;
+  border-left: #a1298f 5px solid;
 
 }
 .transportation a {
@@ -565,5 +553,34 @@ height: 60vh;
   height: 60vh;
 }
 
+/* ------sizes - ------ */
+.sizes-bg {
+  background-image: url(../img/truck-header.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 60vh;
 
+}
+.sizes {
+  display: inline-block;
+  width: 33%;
+  padding: 20px 10px;
+}
+.sizes img {
+  max-width: 250px;
+  width: 100%;
+}
+.sizes p {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.sizes h5{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 15px 0;
+
+}
 
