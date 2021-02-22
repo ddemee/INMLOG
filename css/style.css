@@ -472,7 +472,7 @@
   display: flex;
   justify-content: space-between;
   align-items: top;
-  padding: 50px 0;
+  padding: 50px 0 150px 0;
 }
 .transportation ul {
 
@@ -523,8 +523,29 @@
     background-repeat: no-repeat;
     background-size:cover;
 }
-
-
+.aboutus  {
+  padding: 50px 0;
+  width: 70%;
+}
+.aboutus h5 {
+  font-size: 35px;
+  color: #5d3e92;
+  margin-bottom: 35px;
+}
+.aboutus p {
+  margin: 20px 0 ;
+  font-size: 20px;
+  font-weight: 550;
+  line-height: 1.5;
+}
+.aboutus ul{
+  padding-left: 30px;
+}
+.aboutus li{
+  list-style-type:circle;
+  font-size: 20px;
+  font-weight: 550;
+}
 
 /*   planeeee */
 .plane-bg {
@@ -559,6 +580,33 @@
   z-index: 4;
   position: absolute;
   top: 220px;
+}
+.transition-text h3 {
+  margin-bottom: 55px;
+}
+.transition-text p{
+  font-size: 20px ;
+  font-weight: 650;
+  margin: 20px 0;
+  line-height: 1.5;
+
+}
+.transition-text span {
+  font-style: italic;
+}
+.transition-text ul {
+  width: 100%;
+  padding-left: 20px ;
+}
+.transition-text li {
+  border: none;
+  list-style-type: circle;
+  font-size: 20px;
+  font-weight: 550;
+  line-height: 1.4;
+}
+.transition-text li:hover{
+  background-color: white;
 }
 /*  gabaritulii tvirtiiii  */
 .gabarit-bg {
@@ -661,3 +709,37 @@ height: 60vh;
 
 }
 
+/* ============= wrapper ============ */
+.sizes-menu {
+  justify-content: space-between;
+  display: flex;
+  align-items: flex-start;
+  padding: 80px 0 150px 0;
+}
+.sizes-menu .sizes-menu-left-side {
+  width: 30%;
+  height: 100%;
+  font-size: 20px;
+}
+.sizes-menu .sizes-menu-left-side li {
+  border-bottom: 1px black dotted;
+  padding: 10px;
+  transition: all 0.1s ease;
+  border-left: #a1298f 5px solid;
+  transition: ease-in all 0.3s;
+}
+.sizes-menu .sizes-menu-right-side {
+  width: 67%;
+}
+.active {
+  background-color: #18326f9c;
+  color: white;
+  border-radius: 5px;
+}
+.item-info h3 {
+  font-size: 35px;
+  margin-bottom: 30px;
+  color: #5d3e92;
+}
+/* ---------------- */
+/* ========================= */
