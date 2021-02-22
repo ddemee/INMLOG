@@ -507,14 +507,22 @@
 }
 /* ============== კონტაქტი ============= */
 .contact-bg {
-  background-image: url(../img/aboutusheader.jpg);
+  background-image: url(../img/contact-use.jpg);
   width: 100%;
   height: 60vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
 }
-/* -----------  order ---------------- */
+/* ----------- about us ---------------- */
+.aboutus-bg {
+    background-image: url(../img/aboutusheader.jpg);
+    width: 100%;
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
 
 
 
