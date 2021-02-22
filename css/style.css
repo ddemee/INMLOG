@@ -149,7 +149,7 @@
 .ideas-bg1,
 .ideas-bg2,
 .ideas-bg3{
-  background-image: url(../img/map-tags.jpg);
+  background-image: url(../img/whyus.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -507,12 +507,12 @@
 }
 /* ============== კონტაქტი ============= */
 .contact-bg {
-  background-image: url(../img/contact-use.jpg);
+  background-image: url(../img/aboutusheader.jpg);
   width: 100%;
   height: 60vh;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
 }
 /* -----------  order ---------------- */
 
