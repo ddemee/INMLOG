@@ -95,7 +95,7 @@
   background: #276678;
   display: none;
   position: absolute;
-  z-index: 999;
+  z-index: 99;
   right: 20px;
 }
 
@@ -459,9 +459,9 @@
 .ship-bg h1{
   color: white;
   font-size: 40px;
-  z-index: 4;
   position: absolute;
   top: 220px;
+  z-index: 2;
 }
 
 
@@ -735,12 +735,9 @@ height: 60vh;
   width: 67%;
 }
 .active {
-  background-color: #18326f9c;
+  background-image: linear-gradient(to right,#a52890b0,#18326fb2);
   color: white;
   border-radius: 5px;
-}
-.item-info {
-  margin-top: 50px;
 }
 .item-info h3 {
   font-size: 35px;
@@ -766,4 +763,21 @@ height: 60vh;
   line-height: 1.7;
   font-size: 16px;
 
+}
+/* ----------- */
+.item-info  td ,th  {
+  text-align: center; 
+  vertical-align: middle;
+}
+.item-info  thead {
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.bg-of-td {
+  background-image: linear-gradient(to right,#a5289049,#18326f86);
+}
+.item-info  td {
+  font-size: 16px;
+  font-weight: 540;
 }
