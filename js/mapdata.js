@@ -17,6 +17,7 @@ var simplemaps_worldmap_mapdata={
     all_states_inactive: "no",
     all_states_zoomable: "no",
     
+    
 		//Location defaults
 		location_description: "Location description",
     location_color: "#FF0067",
