@@ -95,7 +95,7 @@
   background: #276678;
   display: none;
   position: absolute;
-  z-index: 999;
+  z-index: 99;
   right: 20px;
 }
 
@@ -174,7 +174,7 @@
   background-image: url(../img/incoterms.jpg);
 }
 .ideas-bg3 {
-  background-image: url(../img/truck-sizes.jpg);
+  background-image: url(../img/sizesone.jpg);
 }
 .ideas-col,
 .ideas-columns {
@@ -459,9 +459,9 @@
 .ship-bg h1{
   color: white;
   font-size: 40px;
-  z-index: 4;
   position: absolute;
   top: 220px;
+  z-index: 2;
 }
 
 
@@ -721,6 +721,7 @@ height: 60vh;
   width: 30%;
   height: 100%;
   font-size: 20px;
+
 }
 .sizes-menu .sizes-menu-left-side li {
   border-bottom: 1px black dotted;
@@ -728,12 +729,13 @@ height: 60vh;
   transition: all 0.1s ease;
   border-left: #a1298f 5px solid;
   transition: ease-in all 0.3s;
+  cursor: pointer;
 }
 .sizes-menu .sizes-menu-right-side {
   width: 67%;
 }
 .active {
-  background-color: #18326f9c;
+  background-image: linear-gradient(to right,#a52890b0,#18326fb2);
   color: white;
   border-radius: 5px;
 }
@@ -744,3 +746,38 @@ height: 60vh;
 }
 /* ---------------- */
 /* ========================= */
+.plane-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+.plane-container img {
+  margin-right: 80px;
+}
+.plane-container span{
+  font-weight: 900;
+}
+.plane-container p {
+  margin: 15px 0;
+  line-height: 1.7;
+  font-size: 16px;
+
+}
+/* ----------- */
+.item-info  td ,th  {
+  text-align: center; 
+  vertical-align: middle;
+}
+.item-info  thead {
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.bg-of-td {
+  background-image: linear-gradient(to right,#a5289049,#18326f86);
+}
+.item-info  td {
+  font-size: 16px;
+  font-weight: 540;
+}

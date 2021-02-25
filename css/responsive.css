@@ -42,7 +42,8 @@
 }
 @media (max-width: 767.98px) { 
     /* ideas responsive */
-    .ideas-columns {
+    .ideas-columns,
+    .transportation  {
         flex-direction: column;
     }
     .ideas-bg1,
@@ -55,6 +56,14 @@
       }
       .ideas-col h4 br {
         display: none;
+      }
+      /* --------- transportion ----------- */
+      .transportation ul,
+      .transition-text {
+        width:100%;
+      }
+      .transition-text {
+        margin-top: 50px;
       }
     /* ----------- */
   .footer-form {
@@ -72,6 +81,15 @@
      .icons {
          width: 100%;
      }
+     /* =================== */
+     .transition-text h3 {
+         font-size: 25px;
+     }
+     .transition-text p,
+     .transition-text li{
+        font-size: 15px;
+      }
+    /* -------------------------- */
     .footer-left-side,
     .footer-right-side,
     .footer-form {
