@@ -46,9 +46,7 @@
     .transportation  {
         flex-direction: column;
     }
-    .ideas-bg1,
-    .ideas-bg2,
-    .ideas-bg3{
+    .parent{
     width: 100%;
     }
     .ideas-col h4 {
