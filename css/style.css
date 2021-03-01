@@ -742,13 +742,21 @@ height: 60vh;
 
 /* ------sizes - ------ */
 .sizes-bg {
-  background-image: url(../img/truck-header.jpeg);
+  background-image: url(../img/new.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 60vh;
+  height: 70vh;
 
+}
+.sizes-bg h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 45px;
+  color: white;
 }
 .sizes {
   display: inline-block;
