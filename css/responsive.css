@@ -107,6 +107,20 @@
   }
 }
 @media (max-width: 575.98px) { 
+  .header,
+  .scrolled {
+    height: 220px;
+  }
+  .menu {
+      flex-direction: column;
+      width: 100%;
+  }
+  .nav-area li ul.dropdown-menu{
+    right: -80px;
+    top: 65px;
+  }
+
+  /* ============================ */
     .cargo-bg h1,
     .cotums-bg h1,
     .shipagent-bg h1,

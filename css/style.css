@@ -87,6 +87,9 @@
   text-decoration: none;
   font-size: 22px;
 }
+.dropdown-menu {
+  padding: 0;
+}
 .nav-area li a:hover{
   color: #fff;
 }
@@ -97,6 +100,7 @@
   position: absolute;
   z-index: 99;
   right: 20px;
+  
 }
 
 .nav-area li ul.dropdown-menu li{
