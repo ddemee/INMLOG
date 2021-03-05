@@ -58,7 +58,8 @@
     .transportation  {
         flex-direction: column;
     }
-    .parent{
+    .parent,
+    .aboutus {
     width: 100%;
     }
     .ideas-col h4 {
@@ -93,6 +94,16 @@
   }
   .sizes {
     width: 40%;
+  }
+  /* about */
+  .aboutus h5 {
+    font-size: 25px;
+  }
+  .aboutus p {
+    font-size: 16px;
+  }
+  .whyus li {
+    font-size: 16px;
   }
 }
 @media (max-width: 575.98px) { 

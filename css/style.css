@@ -567,6 +567,7 @@
 .transition-text {
   width: 70%;
 }
+
 /* ============== კონტაქტი ============= */
 .contact-bg {
   background-image: url(../img/contact-use.jpg);
@@ -607,8 +608,23 @@
   list-style-type:circle;
   font-size: 20px;
   font-weight: 550;
+  line-height: 1.5;
 }
 
+/* why us */
+.whyus {
+  padding: 0;
+}
+.whyus li{
+  list-style-type:none;
+  font-size: 20px;
+  font-weight: 550;
+  line-height: 1.5;
+}
+.whyus i {
+  margin-right: 15px ;
+  color: rgb(117, 117, 117);
+}
 /*   planeeee */
 .plane-bg {
   background-image: url(../img/plane-baggaj.jpg);
