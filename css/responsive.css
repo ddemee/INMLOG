@@ -161,4 +161,7 @@
       .table {
           width: 100%;
       }
+      .child a {
+        font-size: 25px;
+      }
 }

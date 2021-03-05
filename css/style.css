@@ -612,6 +612,14 @@
 }
 
 /* why us */
+.whyus-bg {
+  background-image: url(../img/why.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height:60vh;
+
+}
 .whyus {
   padding: 0;
 }
