@@ -107,6 +107,14 @@
   }
 }
 @media (max-width: 575.98px) { 
+    .cargo-bg h1,
+    .cotums-bg h1,
+    .shipagent-bg h1,
+    .gabarit-bg h1,
+    .onearth-bg h1,
+    .plane-bg h1 {
+      font-size: 30px;
+    }
     .Menu-of-icons{
         margin: 0 auto;
         padding: 0;
