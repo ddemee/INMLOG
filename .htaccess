@@ -1,0 +1,28 @@
+RewriteEngine on
+RewriteRule ^main?$ index.html
+
+RewriteRule ^aboutus$ aboutus.html
+
+RewriteRule ^saxmeleto?$ onearth.html
+
+RewriteRule ^sahaero$ plane.html
+
+RewriteRule ^sazgvao?$ ship.html
+
+RewriteRule ^incoterms$ incoterms.html
+
+RewriteRule ^contactus?$ contactus.html
+
+RewriteRule ^agent$ shipagent.html
+
+RewriteRule sizes?$ sizes.html
+
+RewriteRule ^wharehouse$ wharehouse.html
+
+RewriteRule ^dazgveva?$ cover.html
+
+RewriteRule ^tvirti$ gabarit.html
+
+RewriteRule ^costums?$ sabajo.html
+
+RewriteRule ^whyus$ whyus.html
