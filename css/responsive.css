@@ -110,7 +110,12 @@
   .header,
   .scrolled {
     height: 220px;
+    position: static;
   }
+  .header {
+    background-image: linear-gradient(to right,#d16acc70,#18326f);
+  }
+ 
   .menu {
       flex-direction: column;
       width: 100%;
