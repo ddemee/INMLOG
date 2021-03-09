@@ -162,8 +162,15 @@
       padding: 0;
   }
   .nav-area li ul.dropdown-menu{
-    right: -80px;
-    top: 65px;
+    max-width: 250px;
+    right: -60px;
+    top: 45px;
+  }
+  .nav-area li ul.dropdown-menu li {
+    max-width: 250px;
+  }
+  .nav-area li a {
+    padding: 10px 10px;
   }
 
   /* ============================ */
