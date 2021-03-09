@@ -153,10 +153,10 @@
 .ideas-bg1,
 .ideas-bg2,
 .ideas-bg3{
-  background-image: url(../img/whyus.jpg);
+  background-image: url(../img/why.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: left;
   width: 33.4%;
   height:40vh;
   position: relative;
@@ -280,6 +280,14 @@
 #icon {
   padding: 50px 0;
 }
+#icon {
+  background-image: url(../img/road.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+}
 .Menu-of-icons {
   width: 100%;
   padding: 20px 0;
@@ -301,21 +309,28 @@
   align-items: center;
   flex-direction: column;
   padding:50px 30px;
-  transition: all 0.5s ease
+  transition: all 0.5s ease;
+  background-color: rgba(255, 255, 255, 0.911);
+  border-radius: 10px;
+  width: 98%;
+  height: 220px;
+  position: relative;
 
 }
 .icons:hover{
-  background-color: #68cbe921;
+  background-image: linear-gradient(to right,#a3289052,#18326fc4);
   border-radius: 10px;
 }
 
 .icons:hover h4 {
-  color: #3b21d1;
+  color: #ffffff;
 }
 .icons  h4{
   margin-top:30px;
   font-size: 17px;
-  transition: all 0.5s ease;
+  transition: all 0.1s ease;
+  position: absolute;
+  bottom: 25px;
 }
 .icons div img{
  max-width: 80px;
@@ -328,6 +343,7 @@
 }
 
 /* =============  World Map ================ */
+
 #map,
 #worldmap,
 #map-inner {
@@ -617,7 +633,7 @@
 
 /* why us */
 .whyus-bg {
-  background-image: url(../img/why.jpg);
+  background-image: url(../img/whyus.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

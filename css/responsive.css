@@ -25,6 +25,13 @@
      .sizes {
         width: 30%;
       }
+      /* --------icons ---------- */
+      .icons {
+
+        padding:30px 10px;
+  
+ 
+      }
 }
 @media (max-width: 991.98px) { 
     .Menu-of-icons{
@@ -51,8 +58,29 @@
     .sizes {
         width: 45%;
       }
+       /* --------icons ---------- */
+       .Menu-of-icons {
+         width: 80%;
+         margin: auto;
+       }
+       .Menu-of-icons :last-child{
+        margin: 20px auto;
+      }
+       .icons {
+        margin-bottom: 20px;
+      }
 }
 @media (max-width: 767.98px) { 
+  /* icons */
+  .icons{
+    margin-bottom: 20px;
+  }
+  .Menu-of-icons {
+    width: 100%;
+  }
+  .Menu-of-icons :last-child{
+    margin: 20px auto;
+  }
     /* ideas responsive */
     .ideas-columns,
     .transportation  {
@@ -113,7 +141,7 @@
     position: static;
   }
   .header {
-    background-image: linear-gradient(to right,#d16acc70,#18326f);
+    background-image: linear-gradient(to right,#ffffffd0,#18326f);
   }
  
   .menu {
@@ -132,7 +160,8 @@
     .gabarit-bg h1,
     .onearth-bg h1,
     .plane-bg h1 {
-      font-size: 30px;
+      font-size: 25px;
+      top: 350px;
     }
     .Menu-of-icons{
         margin: 0 auto;
@@ -190,5 +219,12 @@
       }
       .child a {
         font-size: 25px;
+      }
+      /* ======== icons =========== */
+      .Menu-of-icons{
+        width: 100%;
+      }
+      .Menu-of-icons a {
+        width: 100%;
       }
 }
