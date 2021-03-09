@@ -135,6 +135,11 @@
   .incoterms p {
     width: 100%;
   }
+  /* ----------- */
+  .sizes-menu .sizes-menu-left-side {
+    font-size: 16px;
+  
+  }
 }
 @media (max-width: 575.98px) { 
   .header,
