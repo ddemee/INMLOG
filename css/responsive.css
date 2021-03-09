@@ -26,13 +26,9 @@
         width: 30%;
       }
       /* --------icons ---------- */
-      .icons {
-
-        padding:30px 10px;
-  
- 
-      }
-}
+     .icons h4 {
+       font-size: 15px;
+     }
 @media (max-width: 991.98px) { 
     .Menu-of-icons{
        flex-wrap: wrap;
@@ -42,6 +38,9 @@
     }
     .Menu-of-icons:nth-child(5){
         width: 50%;
+    }
+    .icons h4 {
+      font-size: 17px;
     }
      /* ideas responsive */
      .ideas-col h4 {
