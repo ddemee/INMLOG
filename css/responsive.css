@@ -15,20 +15,20 @@
      .sizes {
         width: 30%;
       }
- }
-
+}
 @media (max-width: 1199.98px) {
-    .container {
-        max-width: 990px;
-    }
-     /* aerth side  */
-     .sizes {
-        width: 30%;
-      }
-      /* --------icons ---------- */
-     .icons h4 {
-       font-size: 15px;
-     }
+  .container {
+    max-width: 990px;
+  }
+  /* aerth side  */
+  .sizes {
+    width: 30%;
+  }
+  /* --------icons ---------- */
+  .icons h4 {
+    font-size: 15px;
+  }
+}
 @media (max-width: 991.98px) { 
     .Menu-of-icons{
        flex-wrap: wrap;
@@ -106,8 +106,8 @@
     /* ----------- */
   .footer-form {
     margin-top: 30px;
-}
-.sizes-menu {
+  }
+  .sizes-menu {
     align-items: center;
     flex-direction: column;
   }
@@ -161,87 +161,86 @@
   }
 
   /* ============================ */
-    .cargo-bg h1,
-    .cotums-bg h1,
-    .shipagent-bg h1,
-    .gabarit-bg h1,
-    .onearth-bg h1,
-    .plane-bg h1,
-    .ship-bg h1,
-    .wharehouse-bg h1 {
+  .cargo-bg h1,
+  .cotums-bg h1,
+  .shipagent-bg h1,
+  .gabarit-bg h1,
+  .onearth-bg h1,
+  .plane-bg h1,
+  .ship-bg h1,
+  .wharehouse-bg h1 {
       font-size: 25px;
       top: 350px;
-    }
-    .Menu-of-icons{
+  }
+  .Menu-of-icons{
         margin: 0 auto;
         padding: 0;
         align-items: center;
         justify-content: center;
         width: 100%;
-     }
-     .icons {
-         width: 100%;
-     }
-     /* =================== */
-     .transition-text h3 {
-         font-size: 25px;
-     }
-     .transition-text p,
-     .transition-text li{
-        font-size: 15px;
-      }
-    /* -------------------------- */
-    .footer-left-side,
-    .footer-right-side,
-    .footer-form {
-        width: 100%;
-        margin-right: 0;
-    }
-    #footer input {
-        width: 250px;
-    }
-    #footer textarea{
-        width: 250px;
-    }
-    /* earth side  */
-    .sizes {
-        width: 100%;
-    }
-
-      /* plane side  */
-      .plane-container {
-          flex-direction: column;
-    }
-      .plane-container img {
-       margin-bottom: 30px;
-    }
-      .item-info h3 {
-        font-size: 25px;
-    }
-      .plane-container p {
-        font-size: 14px;
-      
-    }
-
-      /* sea side  */
-      .table {
-          width: 100%;
-    }
-      .child a {
-        font-size: 25px;
-    }
-      /* ======== icons =========== */
-      .Menu-of-icons{
-        width: 100%;
-    }
-      .Menu-of-icons a {
-        width: 100%;
-    }
   }
-  /* sizes */
-  .sizes-bg h1 {
-    font-size: 25px;
-    max-width: 320px;
+  .icons {
+         width: 100%;
+  }
+     /* =================== */
+  .transition-text h3 {
+         font-size: 25px;
+  }
+  .transition-text p,
+  .transition-text li{
+    font-size: 15px;
+  }
+    /* -------------------------- */
+  .footer-left-side,
+  .footer-right-side,
+  .footer-form {
     width: 100%;
+    margin-right: 0;
+  }
+  #footer input {
+        width: 250px;
+  }
+  #footer textarea{
+        width: 250px;
+  }
+  /* earth side  */
+  .sizes {
+        width: 100%;
+  }
+
+  /* plane side  */
+  .plane-container {
+    flex-direction: column;
+  }
+  .plane-container img {
+    margin-bottom: 30px;
+  }
+  .item-info h3 {
+    font-size: 25px;
+  }
+  .plane-container p {
+    font-size: 14px;
+  }
+  /* sea side  */
+  .table {
+    width: 100%;
+  }
+  .child a {
+    font-size: 25px;
+  }
+  /* ======== icons =========== */
+  .Menu-of-icons{
+    width: 100%;
+  }
+  .Menu-of-icons a {
+    width: 100%;
+  }
+  .sizes-bg h1 {
+      font-size: 25px;
+      max-width: 320px;
+      width: 100%;
+  }
+  .header-bg {
+    height: 70vh;
   }
 }
