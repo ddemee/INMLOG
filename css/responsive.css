@@ -158,9 +158,10 @@
     .shipagent-bg h1,
     .gabarit-bg h1,
     .onearth-bg h1,
-    .plane-bg h1 {
-      font-size: 25px;
-      top: 350px;
+    .plane-bg h1,
+    .ship-bg h1 {
+      font-size: 35px;
+      top: 400px;
     }
     .Menu-of-icons{
         margin: 0 auto;
@@ -196,34 +197,36 @@
     /* earth side  */
     .sizes {
         width: 100%;
-      }
+    }
+
       /* plane side  */
       .plane-container {
           flex-direction: column;
-      }
+    }
       .plane-container img {
        margin-bottom: 30px;
-      }
+    }
       .item-info h3 {
         font-size: 25px;
-      }
+    }
       .plane-container p {
         font-size: 14px;
       
-      }
+    }
 
       /* sea side  */
       .table {
           width: 100%;
-      }
+    }
       .child a {
         font-size: 25px;
-      }
+    }
       /* ======== icons =========== */
       .Menu-of-icons{
         width: 100%;
-      }
+    }
       .Menu-of-icons a {
         width: 100%;
-      }
+    }
+  }
 }
