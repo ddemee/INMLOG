@@ -132,6 +132,9 @@
   .whyus li {
     font-size: 16px;
   }
+  .incoterms p {
+    width: 100%;
+  }
 }
 @media (max-width: 575.98px) { 
   .header,
@@ -159,7 +162,8 @@
     .gabarit-bg h1,
     .onearth-bg h1,
     .plane-bg h1,
-    .ship-bg h1 {
+    .ship-bg h1,
+    .wharehouse-bg h1 {
       font-size: 25px;
       top: 350px;
     }
