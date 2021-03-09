@@ -144,16 +144,22 @@
 @media (max-width: 575.98px) { 
   .header,
   .scrolled {
-    height: 220px;
+    height: 160px;
     position: static;
   }
   .header {
     background-image: linear-gradient(to right,#ffffffd0,#18326f);
   }
- 
+  .header-top-nav {
+    padding: 5px 10px;
+  }
+  .header-top-nav {
+    padding: 5px 10px;
+  }
   .menu {
       flex-direction: column;
       width: 100%;
+      padding: 0;
   }
   .nav-area li ul.dropdown-menu{
     right: -80px;

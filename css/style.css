@@ -26,12 +26,6 @@
 .header-top-nav a:hover{
   color: deeppink;
 }
-.header-text {
-  position: absolute;
-  top: 30px;
-  z-index: 5;
-  width: 50%;
-}
 .menu {
   padding: 20px 30px ;
   display: flex;
@@ -717,7 +711,7 @@
 }
 /*  gabaritulii tvirtiiii  */
 .gabarit-bg {
-  background-image: url(../img/containers-logistics-careers.jpg);
+  background-image: url(../img/cc.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
