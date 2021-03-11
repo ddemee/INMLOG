@@ -90,7 +90,8 @@ button {
 textarea { 
     border-style: none; 
     border-color: Transparent; 
-    overflow: auto;        
+    overflow: auto;    
+	resize: none;   
   }
 
 .bpg {

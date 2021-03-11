@@ -58,10 +58,41 @@
     <section class="contact-bg">
 
     </section>
-    <section>
-      <div>
-        <div>
-          <script type="text/javascript" src="https://form.jotform.com/jsform/210635346395458"></script>
+    <section id="contactus">
+      <div class="container"> 
+        <div class="contact-forms">
+          <div>
+              <h3>კონტაქტი</h3>
+            <form action="email.php" method="post" name="contactform">
+              <div class="row g-3">
+                <div class="col">
+                  <input type="text" class="form-control" name="first_name"  id="first" placeholder="სახელი.." aria-label="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" name="last_name"  id="last"  placeholder="გვარი.." aria-label="Last name">
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"></label>
+                <input type="email" class="form-control" name="email" id="emailadr" placeholder="თქვენი@მეილი.ჯი..">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                <textarea class="form-control" id="msg" rows="6" placeholder="თქვენი მესიჯი.."></textarea>
+              </div>
+              <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-primary" type="button">გაგზავნა</button>
+              </div>
+            </form>
+                
+          </div>
+            <div class="contactus-form-col">
+              <h3>საკონტაქტო ინფორმაცია</h3>
+              <a href="#">contactus@inmlogistcics.ge</a>
+              <a href="#">+55 555 555 55</a>
+              <a href="#">საქართველო ქ. თბილისი, ცოტნე დადიანის #7</a>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.06120631067!2d44.80023681567811!3d41.719198083321665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440d322ae3bf3d%3A0x8dcbaf5d79f6cada!2z4YOl4YOQ4YOg4YOV4YOQ4YOh4YOa4YOQ!5e0!3m2!1ska!2sge!4v1615488533009!5m2!1ska!2sge" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+             </div>
         </div>
       </div>
     </section>
@@ -128,6 +159,6 @@
         }            
     });
     </script>
-    
+    <script>feather.replace();</script>
 </body>
 </html>
