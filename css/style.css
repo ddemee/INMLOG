@@ -53,14 +53,14 @@ body {
   width: 100%;
   height: 150px;
   position: fixed;
-  background-image: linear-gradient(to right,#ffffff,#18326f);
+  background-image: linear-gradient(to right,#ffffff,#a32890,#18326f);
   border-bottom: 1px solid #fff;
   z-index: 25;
   box-shadow: 0 5px 10px #3B4170;
   transition: all 0.5s ease;
 }
 .scrolled .header-top{
-  background-image: linear-gradient(to right,#ffffff,#132550);
+  background-image: linear-gradient(to right,#ffffff,#962385,#132550);
 }
 
 /* ===================== */
