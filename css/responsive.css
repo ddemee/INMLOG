@@ -264,8 +264,11 @@
   }
   .sizes-bg h1 {
       font-size: 25px;
-      max-width: 320px;
+      max-width: 270px;
       width: 100%;
+      top: 80%;
+      left: 50%;
+      transform: translate(-45%,-50%);
   }
   .header-bg {
     height: 70vh;

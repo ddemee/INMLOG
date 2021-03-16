@@ -825,9 +825,9 @@ height: 60vh;
 }
 .sizes-bg h1 {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-40%,-50%);
   font-size: 45px;
   color: white;
 }
