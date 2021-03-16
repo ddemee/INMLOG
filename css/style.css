@@ -160,7 +160,7 @@ body {
   background-image: url(../img/why.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left;
+  background-position: center;
   width: 33.4%;
   height:40vh;
   position: relative;
@@ -177,6 +177,9 @@ body {
   left: 0;
   z-index: 2;
   opacity: 0.5;
+}
+.ideas-bg1 {
+  background-position: left;
 }
 .ideas-bg2 {
   background-image: url(../img/incoterms1.jpg);
