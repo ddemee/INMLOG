@@ -45,7 +45,7 @@ body {
   left: 0;
   width: 100%;
   height: 150px;
-  background-image: linear-gradient(rgba(218, 216, 216, 0.562),rgba(99, 98, 98, 0.233));
+  background-image: linear-gradient(rgba(218, 216, 216, 0.925),rgba(99, 98, 98, 0.445));
   z-index: 4;
   transition: all 1s ease;
 }
@@ -120,37 +120,32 @@ body {
 }
 /* header bg  */
 .header-bg {
-  background-image: url(../img/header.jpg);
+  background-image: url(../img/header1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: 100%;
   height: 100vh;
+  position: relative;
 }
-.header-bg-div {
-  padding: 250px 30px;
-  background-color: #383e5696;
-  width: 30%;
+.header-content {
+  width: 40%;
   position: absolute;
-  top: 250px;
+  background-color: #22222291;
+  padding:0 0 380px;
+  top: 22%;
+  left: 10%;
 }
-.header-bg-div h1 {
+.header-content h2 {
+  font-size: 32px;
   color: white;
-  font-size: 35px;
-  line-height: 1.9;
-  font-weight: 900;
-  position: absolute;
-  top: 50px;
+  padding: 35px 40px ;
+  background-color: #00000015;
 }
-.header-bg-div p {
-  color: white;
-  font-size: 20px;
-  line-height: 1.9;
-  font-weight: 600;
-  position: absolute;
-  top: 200px;
-  
-
+.header-content p {
+  color: #fff;
+  font-size: 18px;
+  padding: 25px 40px;
 }
 
 /* ----------- Ideas ------------- */
